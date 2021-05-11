@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.gstatic.com/">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;display=swap" rel="stylesheet">
+	<link rel ="stylesheet" href="master.css">
+	<script src="main.js"></script>
+	<title>Restaurant</title>
+</head>
+<body>
+  <header>
+    <div class="overlay"></div>
+    <h1> Geniet van authentiek Grieks eten </h1>
+  </header>
+
+  <main>
+    <input class="button" id="pizza" type="checkbox" name="input">
+    <label>Pizza</label>
+    <input class="button" id="pasta" type="checkbox" name="input">
+    <label>Pasta</label>
+    <input class="button" id="drank" type="checkbox" name="input">
+    <label>Drank</label>
+    <input class="button" id="favoriet" type="checkbox" name="input">
+    <label>Favoriet</label>
+
+
+		<ul class="cardWrapper">
+			<li class="pizza" id="1" data-category="pizza">
+        <button class="hartje" id="btn1" data-category="none"></button>
+				<h2 class="js--cardHeader">Al Tonno </h2>
+				<p> tonijn, mozzarella, cheddar, champignons. olijven</p>
+			</li>
+      <li class="pizza" id="2" data-category="pizza">
+        <button class="hartje" id="btn2" data-category="none"></button>
+        <h2 class="js--cardHeader">Carciofi</h2>
+        <p>tomaat, mozzarella en artisjok</p>
+      </li>
+      <li class="pizza" id="3" data-category="pizza">
+        <button class="hartje" id="btn3" data-category="none"></button>
+        <h2 class="js--cardHeader">Tonno (e cipolla)</h2>
+        <p>tomaat, mozzarella, tonijn (met of zonder ui)</p>
+      </li>
+      <li class="pasta" id="4" data-category="pasta">
+        <button class="hartje" id="btn4" data-category="none"></button>
+        <h2 class="js--cardHeader">Pasta bolognese</h2>
+        <p>tomatensaus en gehakt</p>
+      </li>
+      <li class="pasta" id="5" data-category="pasta">
+        <button class="hartje" id="btn5" data-category="none"></button>
+        <h2 class="js--cardHeader">Pasta meatlover</h2>
+        <p>tomatensaus, gehakt, stukjes bacon en smac</p>
+      </li>
+      <li class="pasta" id="6" data-category="pasta">
+        <button class="hartje" id="btn6" data-category="none"></button>
+        <h2 class="js--cardHeader">Pasta uitsmijter</h2>
+        <p>tomatensaus, ei en stukjes bacon</p>
+      </li>
+      <li class="drank" id="7" data-category="drank">
+        <button class="hartje" id="btn7" data-category="none"></button>
+        <h2 class="js--cardHeader">Coca-cola</h2>
+        <p>Keuze uit: light, regular, zero en vanille</p>
+      </li>
+      <li class="drank" id="8" data-category="drank">
+        <button class="hartje" id="btn8" data-category="none"></button>
+        <h2 class="js--cardHeader">Fanta</h2>
+        <p>Keuze uit: regular en zero</p>
+      </li>
+      <li class="drank" id="9" data-category="drank">
+        <button class="hartje" id="btn9" data-category="none"></button>
+        <h2 class="js--cardHeader">Sprite</h2>
+        <p>Keuze uit: regular en zero</p>
+      </li>
+
+		</ul>
+  </main>
+  <footer>
+    <h2> Website gemaakt door Amir Koukouh </h2>
+  </footer>
+	<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.3.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/8.3.1/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+</body>
+
+</html>
